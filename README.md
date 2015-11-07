@@ -8,7 +8,7 @@ Jetty  Daemon Runner improves over existing jetty-runner with JVM daemonization.
 It's packaged as a single runnable jar you can use on Unix platforms
 supported by Akuma/JNA.
 
-[Download latest release (0.5)](https://github.com/vnesek/jetty-daemon-runner/releases/v0.5)
+[Download latest release (0.5)](https://github.com/vnesek/jetty-daemon-runner/releases/tag/v0.5)
 
 Usage
 -----
