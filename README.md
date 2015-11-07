@@ -1,7 +1,7 @@
 Jetty Daemon Runner
 ===================
 
-Ever wanted a servlet engine in a single runnabable JAR that could 
+Ever wanted a servlet engine in a single runnable JAR that could 
 correctly daemonize and run WAR from a command line? 
 
 Jetty  Daemon Runner improves over existing jetty-runner with JVM daemonization.
