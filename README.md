@@ -8,6 +8,8 @@ Jetty  Daemon Runner improves over existing jetty-runner with JVM daemonization.
 It's packaged as a single runnable jar you can use on Unix platforms
 supported by Akuma/JNA.
 
+[Download latest release (0.5)](https://github.com/vnesek/jetty-daemon-runner/releases/v0.5)
+
 Usage
 -----
 
@@ -34,7 +36,7 @@ Features
 Command line options
 --------------------
 
-```sh
+```
 Addition daemon server opts:
  --start                             - detach from a terminal and run in background
  --stop                              - stop running server by pid
@@ -42,7 +44,6 @@ Addition daemon server opts:
  --pid file                          - PID file
  --chdir dir                         - change running directory
 
-ERROR: No Contexts defined
 Usage: java [-Djetty.home=dir] -jar jetty-runner.jar [--help|--version] [ server opts] [[ context opts] context ...] 
 Server opts:
  --version                           - display version and exit
