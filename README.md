@@ -1,14 +1,14 @@
 Jetty Daemon Runner
 ===================
 
-Ever wanted a servlet engine in a single runnable JAR that could 
-correctly daemonize and run WAR from a command line? 
+Ever wanted a servlet engine in a single runnable JAR that could
+correctly daemonize and run WAR from a command line?
 
 Jetty  Daemon Runner improves over existing jetty-runner with JVM daemonization.
 It's packaged as a single runnable jar you can use on Unix platforms
 supported by Akuma/JNA.
 
-[Download latest release (0.5)](https://github.com/vnesek/jetty-daemon-runner/releases/tag/v0.5)
+[Download latest release (0.6)](https://github.com/vnesek/jetty-daemon-runner/releases/tag/v0.6)
 
 Usage
 -----
@@ -16,19 +16,19 @@ Usage
 * Start Jetty at port 8080 serving WAR at / as a daemon in background
 
 ```sh
-	java -jar jetty-daemon.jar --start --pid some.pid some.war 
+	java -jar jetty-daemon.jar --start --pid some.pid some.war
 ```
 
 * Stop Jetty using pid file
 
 ```sh
-	java -jar jetty-daemon.jar --stop --pid some.pid 
+	java -jar jetty-daemon.jar --stop --pid some.pid
 ```
 
 Features
 --------
 * Supports Java 8 on Unix
-* Start/stop/restart service 
+* Start/stop/restart service
 * Detaching from terminal (no need for nohup, java service wrapper...)
 * All dependencies packaged as a single runnable JAR
 * BSD style license
@@ -44,7 +44,7 @@ Addition daemon server opts:
  --pid file                          - PID file
  --chdir dir                         - change running directory
 
-Usage: java [-Djetty.home=dir] -jar jetty-runner.jar [--help|--version] [ server opts] [[ context opts] context ...] 
+Usage: java [-Djetty.home=dir] -jar jetty-runner.jar [--help|--version] [ server opts] [[ context opts] context ...]
 Server opts:
  --version                           - display version and exit
  --log file                          - request log filename (with optional 'yyyy_mm_dd' wildcard
@@ -67,7 +67,7 @@ References
 ----------
 
 * [Akuma](http://akuma.kohsuke.org/) for JVM daemonization
-* [JNA](https://github.com/java-native-access/jna) for native code access 
+* [JNA](https://github.com/java-native-access/jna) for native code access
 * [Jetty Runner](http://www.eclipse.org/jetty/documentation/current/runner.html) favorite servlet engine
 
 Author Contact and Support
