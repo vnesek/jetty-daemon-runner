@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.nmote.jetty</groupId>
 	<artifactId>jetty-daemon-runner</artifactId>
-	<version>0.6</version>
+	<version>0.6.1</version>
 	<name>Jetty Daemon Runner</name>
 	<description>Jetty daemon runner for Unix</description>
 	<url>https://github.com/vnesek/jetty-daemon-runner</url>
@@ -46,7 +46,7 @@
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-runner</artifactId>
-			<version>9.3.8.v20160314</version>
+			<version>9.3.11.v20160721</version>
 		</dependency>
 		<dependency>
 			<groupId>net.java.dev.jna</groupId>
@@ -72,6 +72,7 @@
 							<archive>
 								<manifest>
 									<mainClass>com.nmote.jetty.daemon.JettyRunner</mainClass>
+									<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
 								</manifest>
 							</archive>
 						</configuration>
