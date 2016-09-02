@@ -42,7 +42,7 @@ public class JettyRunner {
 
         @Override
         public void version() {
-            System.err.println("com.nmote.jetty.daemon.JettyRunner: 0.5.0");
+            System.err.println("com.nmote.jetty.daemon.JettyRunner: " + getClass().getPackage().getImplementationVersion());
             super.version();
         }
 
