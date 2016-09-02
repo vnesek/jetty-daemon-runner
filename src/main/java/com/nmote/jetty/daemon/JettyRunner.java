@@ -97,6 +97,11 @@ public class JettyRunner {
 
             // Daemonize me
             if (doStart) {
+                Thread.sleep(2500);
+                //LIBC.perror("Deamonizing");
+                System.out.println("");
+                System.out.flush();
+                System.err.flush();
                 d.daemonize(args);
                 System.exit(0);
             }
